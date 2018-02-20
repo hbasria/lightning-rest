@@ -5,7 +5,7 @@ from klein import Klein
 from lightning_rest.lightning import LightningRpc
 
 
-def response(self, resp):
+def response(resp):
     return json.dumps(resp)
 
 
