@@ -1,5 +1,3 @@
-from concurrent import futures
-
 import json
 import logging
 import socket
@@ -42,6 +40,7 @@ class UnixDomainSocketRpc(object):
 
         def wrapper(*args, **_):
             return self._call(name, args)
+
         return wrapper
 
     def _call(self, method, args=None):
