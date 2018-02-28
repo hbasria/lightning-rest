@@ -16,7 +16,7 @@ setup(
     keywords='lightning rest api',
     url='https://github.com/hbasria/lightning-rest',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
-    install_requires=['klein>=17.10.0,<=18.0', ],
+    install_requires=['aiohttp-swagger>=1.0.5,<=2.0', ],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',

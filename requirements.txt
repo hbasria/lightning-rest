@@ -4,14 +4,14 @@
 #
 #    pip-compile --output-file requirements.txt setup.py
 #
-
-attrs==17.4.0             # via automat
-automat==0.6.0            # via twisted
-constantly==15.1.0        # via twisted
-hyperlink==17.3.1         # via twisted
-incremental==17.5.0       # via klein, twisted
-klein==17.10.0
-six==1.11.0               # via automat, klein
-twisted==17.9.0           # via klein
-werkzeug==0.14.1          # via klein
-zope.interface==4.4.3     # via twisted
+aiohttp-swagger==1.0.5
+aiohttp==2.3.10           # via aiohttp-swagger
+async-timeout==2.0.0      # via aiohttp
+chardet==3.0.4            # via aiohttp
+idna-ssl==1.0.0           # via aiohttp
+idna==2.6                 # via idna-ssl, yarl
+jinja2==2.10              # via aiohttp-swagger
+markupsafe==1.0           # via jinja2
+multidict==4.1.0          # via aiohttp, yarl
+pyyaml==3.12              # via aiohttp-swagger
+yarl==1.1.1               # via aiohttp

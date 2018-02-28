@@ -58,7 +58,7 @@ class UnixDomainSocketRpc(object):
 
         logging.debug("Received response for %s call: %r", method, resp)
         if 'error' in resp:
-            raise ValueError("RPC call failed: {}".format(resp['error']))
+            return resp['error']
         elif 'result' not in resp:
             raise ValueError("Malformed response, 'result' missing.")
         return resp['result']
