@@ -7,7 +7,7 @@ with open('README.md') as fp:
 
 setup(
     name='lightning-rest',
-    version='0.1.1',
+    version='0.2.1',
     description='Rest server for the `lightningd` RPC.',
     long_description=long_description,
     author='Hasan Basri',
