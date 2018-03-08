@@ -1,7 +1,7 @@
 from aiohttp import web
 from aiohttp_swagger import *
 
-from lightning_rest.lightning import LightningRpc
+from lightning import LightningRpc
 
 routes = web.RouteTableDef()
 
