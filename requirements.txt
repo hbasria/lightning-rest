@@ -15,3 +15,4 @@ markupsafe==1.0           # via jinja2
 multidict==4.1.0          # via aiohttp, yarl
 pyyaml==3.12              # via aiohttp-swagger
 yarl==1.1.1               # via aiohttp
+pylightning==0.0.3
