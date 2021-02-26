@@ -5,7 +5,7 @@
 #    pip-compile --output-file requirements.txt setup.py
 #
 aiohttp-swagger==1.0.5
-aiohttp==2.3.10           # via aiohttp-swagger
+aiohttp==3.7.4           # via aiohttp-swagger
 async-timeout==2.0.0      # via aiohttp
 chardet==3.0.4            # via aiohttp
 idna-ssl==1.0.0           # via aiohttp
